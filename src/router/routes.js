@@ -1,9 +1,7 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import PageAccueil from '../components/PageAccueil'
 import Disney from '../components/Disney'
 
-Vue.use(VueRouter)
 
 const routes = [
     {
@@ -18,10 +16,12 @@ const routes = [
     }
 ]
 
-const router = new VueRouter({
+
+const router = createRouter({
     mode: 'history',
+    history: createWebHistory(),
     base: process.env.BASE_URL,
-    routes
+  routes
 })
 
 export default router

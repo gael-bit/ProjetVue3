@@ -1,28 +1,12 @@
 <template>
-  <header>
-    <nav><p id="hello">Hello !</p></nav>
-    <h1><span>Book</span>.Store</h1>
-    <nav class="nav2">
-      <div><p>Roman</p></div>
-
-      <div><p>Disney</p></div>
-
-      <div><p>Comics</p></div>
-      <div><p>Mangas</p></div>
-      <div id="panier"><p>Panier</p></div>
-    </nav>
-  </header>
-  <p>nouvel page</p>
+  <span>disney</span>
 </template>
 
 <script>
-import CardBook from "@/components/CardBook.vue";
 export default {
   name: "PageAccueil",
   props: {},
-  components: {
-    CardBook,
-  },
+ 
 };
 </script>
 

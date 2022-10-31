@@ -1,15 +1,16 @@
 <template>
-  <PageAccueil />
+    <router-link to="/"><p>Accueil</p></router-link>
+    <router-link to="/disney"><p>Disney</p></router-link>
+    <div>
+        <router-view></router-view>
+    </div>
+ 
 </template>
 
 <script>
-import PageAccueil from "./components/PageAccueil.vue";
-
 export default {
   name: "App",
-  components: {
-    PageAccueil,
-  },
+ 
 };
 </script>
 

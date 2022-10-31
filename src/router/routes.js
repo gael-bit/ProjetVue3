@@ -1,14 +1,20 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Accueil from '../components/PageAccueil_copy'
+import PageAccueil from '../components/PageAccueil'
+import Disney from '../components/Disney'
 
 Vue.use(VueRouter)
 
 const routes = [
     {
-        path: '/pageAccueil_copy',
+        path: '/',
         name: 'accueil',
-        component: Accueil
+        component: PageAccueil
+    },
+    {
+        path: '/disney',
+        name: 'disney',
+        component: Disney
     }
 ]
 

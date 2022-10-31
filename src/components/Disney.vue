@@ -4,13 +4,15 @@
     <h1><span>Book</span>.Store</h1>
     <nav class="nav2">
       <div><p>Roman</p></div>
-      <router-link to="/disney"><p>Disney</p></router-link>
+
+      <div><p>Disney</p></div>
+
       <div><p>Comics</p></div>
       <div><p>Mangas</p></div>
       <div id="panier"><p>Panier</p></div>
     </nav>
   </header>
-  <CardBook />
+  <p>nouvel page</p>
 </template>
 
 <script>
@@ -41,7 +43,7 @@ header {
   background-color: #ebebed;
 }
 span {
-  color: #d05f66;
+  color: ##b3cdeb;
   font-size: 3em;
 }
 
@@ -57,9 +59,5 @@ div {
 
 #panier {
   padding-left: 48%;
-}
-
-a {
-  color: purple;
 }
 </style>
